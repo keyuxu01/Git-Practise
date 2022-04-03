@@ -1,0 +1,16 @@
+# 注释
+
+# 要忽略的文件
+test.md
+
+# 忽略的所有文件名为 test
+test.*
+
+# 忽略的所有后缀为 tmp的文件
+*.tmp
+
+# 取反 之前被 忽略掉文件中 不去忽略 index.tmp
+!index.tmp
+
+# 忽略 node_modules 下所有文件
+node_modules/
